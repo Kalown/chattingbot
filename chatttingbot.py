@@ -1,4 +1,4 @@
-#Project 1 Chatting bot KALOWN
+#Project 1 Chatting bot ZERO
 a=input("language : American , Mexican , French")
 
 """Greeting"""
@@ -11,7 +11,7 @@ def greet (lang):
      elif lang=='American':
         print('hello , how u doin buddy')
 greet(a)
-print("I am kalown")
+print("I am Zero")
 print("I was created on 2021")
 
 """ Asking about age"""
@@ -39,10 +39,10 @@ print()
 """After age equation"""
 
 age=str(d)
-if age<="16":
+if age<="16": #Level 0
         print('so what you watch cartoon or tv shows')
         e=0
-        if e=="cartoon":
+        if e=="cartoon": #level 1
             f=input(print("what cartoon do you watch? \n"))
         elif e=="tv shows":
             g=input(print("what tv show you like to watch"))
