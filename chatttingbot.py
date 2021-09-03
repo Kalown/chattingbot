@@ -1,4 +1,4 @@
-#Project 1 Chatting bot ZERO
+#Project 1 Chatting bot KALOWN
 a=input("language : American , Mexican , French")
 
 """Greeting"""
@@ -11,14 +11,14 @@ def greet (lang):
      elif lang=='American':
         print('hello , how u doin buddy')
 greet(a)
-print("I am ZERO")
+print("I am kalown")
 print("I was created on 2021")
 name=input("what is your name ?")
 """ Asking about age"""
 
 def year(age):
     if age<=16:
-        print(name,'you are a kid dumbass')
+        print(name,'you are a kid')
     elif age<=25:
         print('wasssup',name)
     elif age>=26:
@@ -30,14 +30,13 @@ print("what you was born on ",b," Really")
 c=2021
 
 try :
-  if b>=2021:
-     print('You must be joking!')
-  else:pass
+    if b<2021:
+        d=c-b
+        year(d)
 
+    else:pass
 except :
- globalsd=c-b
- print(d)
- year(d)
+ print("you must be joking")
 
 """After age equation"""
 
@@ -70,10 +69,13 @@ elif age>="17":
  print('So what school u in? \n')
  school=input("")
 
-elif age>="27":
+elif age<="27":
   print("okk! so what's new going on ?")
 
 else:pass
 
 #Report on the subject intracted
-
+zero=0
+z=int(input("Enter the password"))
+if zero ==(2016-z):
+    print("The name of the subject is",)
