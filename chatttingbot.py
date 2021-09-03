@@ -11,14 +11,14 @@ def greet (lang):
      elif lang=='American':
         print('hello , how u doin buddy')
 greet(a)
-print("I am kalown")
+print("I am ZERO")
 print("I was created on 2021")
 name=input("what is your name ?")
 """ Asking about age"""
 
 def year(age):
     if age<=16:
-        print(name,'you are a kid')
+        print(name,'you are a kid dumbass')
     elif age<=25:
         print('wasssup',name)
     elif age>=26:
