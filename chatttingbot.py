@@ -76,7 +76,4 @@ elif age>="27":
 else:pass
 
 #Report on the subject intracted
-zero=0
-z=int(input("Enter the password"))
-if zero ==(2016-z):
-    print("The name of the subject is",)
+
